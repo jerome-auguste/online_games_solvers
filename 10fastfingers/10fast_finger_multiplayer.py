@@ -31,7 +31,7 @@ while writing:
         curr_word = driver.find_element(by=By.CLASS_NAME, value="highlight").text
         print(curr_word)
         curr_word += " "
-        
+
         for letter in curr_word:
             input_element.send_keys(letter)
             if hope:
