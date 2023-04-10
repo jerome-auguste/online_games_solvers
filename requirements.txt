@@ -4,3 +4,4 @@ requests==2.28.2
 selenium==4.8.2
 pyxlsb==1.0.10
 matplotlib==3.7.0
+black
